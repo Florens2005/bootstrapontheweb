@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Movies</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gabarito&display=swap" rel="stylesheet">
+  <script src="script.js" defer></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <style>
+       body {
+      background-image: url("https://e0.pxfuel.com/wallpapers/869/758/desktop-wallpaper-star-wars-moving-background-star-wars-cartoon.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+    .nav-link {
+      font-size: large;
+      margin: 0 10px;
+    }
+    .carousel-item {
+        height: 20vh;
+        overflow: hidden;
+    }
+    .carousel-item img {
+      display: block;
+      margin: 0 auto;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-20%);
+    }
+    .carousel-item p {
+      position: relative;
+      margin-top: 50px;
+      font-size: 30px;
+    }
+    .foto{
+      position: relative;
+      height:100%; 
+    }
+      .container {
+        margin-top: 40px;
+        margin-bottom: 40px;
+      }
+      #info {
+        border-bottom: 5px solid black;
+        margin-top: 10px;
+      }
+      .recensies p {
+        border: 2px solid black;
+        padding: 5px;
+      }
+      .display-6 {
+        font-size: 20px;
+        margin-bottom: 5px;
+      }
+      .col-sm-6 img {
+        border-bottom: 5px solid black;
+      }
+      textarea {
+        resize: none;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-light pt-4 pb-4  ">
+      <div class="container-xxl">
+        <!-- toggle button for mobile nav -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- navbar links -->
+        <div class="collapse navbar-collapse align-center justify-content-center" id="main-nav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class "nav-item">
+              <a class="nav-link" href="index.html">Movies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="addfilm.html">Create</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- carousel -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel"data-interval="3000" >
+      <div class="carousel-inner">
+       <div class="foto">
+        <div class="carousel-item carousel-imagea active">
+          <img src="https://pbs.twimg.com/media/EiV8NhLUMAAPmzN.jpg:large" class="d-block w-100" alt="...">
+        </div>
+       </div>
+        <div class="carousel-item carousel-image">
+          <img src="https://www.starwarsnewsnet.com/wp-content/uploads/2021/11/FEAXvmoXEAoIWfE.jpg " class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item carousel-image">
+          <img src="https://cdn.falconbricks.com/images/themes/star-wars-banner.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+    <!-- about me -->
+    <div>
+      <div class="container about">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 ">
+            <img src="https://preview.redd.it/official-star-wars-ahsoka-poster-v0-z043dl101omb1.jpg?width=640&crop=smart&auto=webp&s=661ce4c4d5b3e6f27832d2658fb87f50d6f16821" alt="Ahsoka" class="img-fluid pb-3">
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <h1>Ahsoka</h1>
+            <p class="display-6">2023</p>
+            <p id="info">
+             
+              Ahsoka Tano is een fictief personage uit 
+              het Star Wars-universum. Ze is een voormalige
+              Jedipadawan die getraind was door Anakin Skywalker en later een belangrijke rol speelde in de animatieserie "Star Wars: The Clone Wars". Ahsoka wordt gewaardeerd om haar moed, vastberadenheid en wijsheid, evenals haar bekwaamheid in lichtzwaardgevechten en kracht in de Force.
+              Na haar tijd als Jedipadawan heeft Ahsoka 
+              verschillende uitdagende situaties doorstaan 
+              en haar eigen pad moeten bewandelen. Haar reis 
+              gaat verder in andere Star Wars-media, zoals de
+              animatieserie "Star Wars Rebels" en het boek 
+              "Ahsoka" van E.K. Johnston. Ahsoka's verhaal 
+              belicht thema's als zelfontdekking, loyaliteit 
+              en het maken van moeilijke keuzes in een tijd van
+              conflict en verandering in het sterrenstelsel.
+          
+            </p>
+            <div class="recensies">
+              <h2 class="display-3">Reviews</h2>
+              <p>- "Ahsoka" - Een krachtig Star Wars-verhaal
+                <br> 9.0/10 <br>  "Ontdek Ahsoka's boeiende reis door het Star Wars-universum, beladen met diepe thema's en meeslepende actie. Een traktatie voor elke fan!"
+              </p>
+              <p>-Ahsoka - Een meeslepende Star Wars ervaring
+                <br> 8.0/10 <br>  "Ahsoka biedt een meesterlijk weergegeven verhaal dat de diepte van de Force verkent, verpakt in spannende avonturen en emotionele wendingen. Een absolute must voor elke Star Wars-liefhebber!"
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <h2 class="display-3">Acteurs</h2>
+          <div class="col-sm-2">
+            <a href="acteur2.html">
+              <img src="https://advancelocal-adapter-image-uploads.s3.amazonaws.com/image.masslive.com/home/mass-media/width2048/img/entertainment/photo/rosario-dawson-86ba0f5cc0263e71.jpg" alt="owen_wilson" class="img-fluid img-thumbnail">
+              <p>Rosario Dawson</p>
+            </a>
+          </div>
+          <div class="col-sm-2">
+            <img src="https://m.media-amazon.com/images/M/MV5BZTA2ZDA4YTgtMzcxYy00Njg4LWExNDYtMzkyOTRmYzZiYjEzXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_.jpg" alt="bonnie_hunt" class="img-fluid img-thumbnail" width="138px" height="138px">
+            <p>Natasha Liu Bordizzo</p>
+          </div>
+          <div class="col-sm-3">
+          </div>
+          <div class="col-sm-5">
+            <form>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">plaats een review</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">invoeren</button>
+            </form>
+          </div>
+        </div>
+        <form>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer class="bg-dark text-white text-center py-4">
+      <p class="mb-0">© STAR CINEMA door: <a href="about.html" class="text-white fw-bold" target="_blank">Florens Tool</a></p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

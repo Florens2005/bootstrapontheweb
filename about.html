@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Movies</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gabarito&display=swap" rel="stylesheet">
+  <script src="script.js" defer></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <style>
+       body {
+      background-image: url("https://e0.pxfuel.com/wallpapers/869/758/desktop-wallpaper-star-wars-moving-background-star-wars-cartoon.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+    .nav-link {
+      font-size: large;
+      margin: 0 10px;
+    }
+    .carousel-item {
+        height: 20vh;
+        overflow: hidden;
+    }
+    .carousel-item img {
+      display: block;
+      margin: 0 auto;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-20%);
+    }
+    .carousel-item p {
+      position: relative;
+      margin-top: 50px;
+      font-size: 30px;
+    }
+    .foto{
+      position: relative;
+      height:100%; 
+    }
+    .movies .col-sm-4 {
+      margin-bottom: 10px;
+      padding: 0;
+    }
+    .about {
+        margin-top:40px;
+        margin-bottom:40px;
+    }
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    a:visited{
+      color: black;
+    }
+    
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-md navbar-light pt-4 pb-4  ">
+    <div class="container-xxl">
+<!-- toggle button for mobile nav -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+<!-- navbar links -->
+      <div class="collapse navbar-collapse align-center justify-content-center" id="main-nav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link text-secondary fw-bold" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="index.html">Movies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="addfilm.html">Create</a>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+<!-- Separate div for the search bar -->
+          
+<!-- carousel -->
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel"data-interval="3000" >
+  <div class="carousel-inner">
+   <div class="foto">
+    <div class="carousel-item carousel-imagea active">
+      <img src="https://pbs.twimg.com/media/EiV8NhLUMAAPmzN.jpg:large" class="d-block w-100" alt="...">
+    </div>
+   </div>
+    <div class="carousel-item carousel-image">
+      <img src="https://www.starwarsnewsnet.com/wp-content/uploads/2021/11/FEAXvmoXEAoIWfE.jpg " class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item carousel-image">
+      <img src="https://cdn.falconbricks.com/images/themes/star-wars-banner.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+</div>
+<!-- about me -->
+  <div class="container about">
+    <div class="row">
+      <div class="col-sm-6">
+        <img src="https://cdn.discordapp.com/attachments/1148164941833048124/1158115472642945124/ADCreHdJ8zMwNphubXZofBStu3k5Sqi89GRULhN59d5xzunf_2TxpMu_72Kcyq70cdcdhhD5QFGp8lf1rXaaBpRVpPrj9JZ-VPxHHMmD7dtPvrYTxpdciOnX2Jo7wZZQeuX0tOSPHbyktPZCj5P3GaqUxvcSaBd-djkO8Rc7J8_qyhzjrJfGxJPGa5H7GXbeGsdKS5pu1MxhekxDQcYbQXlW5Dqse17gNjiICrBQFRFV9_AKLAT1vCsfDcUHoEjo-0l8ONT4sGC4KtNlh9E2u_kkLp56W8xbkFpfJzwst5RUnWoHiDWIQNzcI4aP-3t-LpoEHVVxT6SUBbj7L127TyS2iaeuBGkQ4KUtqb_2A9iajeUTZ6oXb61Gq1lMstgyhZy3MvxxoJCTJyfvbwCJFpNHMSNHtgQHjvwAYMd2UOCpesxCMRvbw6dQy7QL0lQauiser1wBAztHPJapxvmxpD6Md5OX2P7_NbjcuOEoyb3p74Ypu81If6_TEH-9..png?ex=651b1295&is=6519c115&hm=609ca8ae6319985aef70b51b967c85d2f642cb1b4128bc4d715513ed57d0a60a&%22" alt="foto van mezelf" class="img-fluid">
+      </div>
+      <div class="col-sm-6">
+        <h1 class="display-3">Florens Tool</h1>
+        <p>
+          Hey, ik ben Florens Tool, de drijvende kracht achter Star Cinema. Als een enorme fan van Star Wars en een gepassioneerde liefhebber van films, heb ik mijn passie omgezet in een project dat filmliefhebbers samenbrengt.
+
+          Star Wars heeft altijd een speciale plaats in mijn hart gehad, en ik geloof dat films de kracht hebben om mensen te verenigen en hen mee te nemen op epische avonturen. Star Cinema is mijn manier om die liefde voor film en de Star Wars-gemeenschap te delen.
+          
+          Ik ben toegewijd aan het leveren van kwaliteitsinhoud en het delen van mijn enthousiasme voor films met jullie allemaal. Bedankt voor het ondersteunen van Star Cinema en het delen van deze geweldige reis met mij.
+        
+        </p>
+        <h2 class="display-6">Contact</h2>
+        <b>Mail:</b> <a href="mailto:stefrensma@gmail.com">fm.tool@student.avans.nl</a><br><b>Github:</b><a href="https://github.com/Florens2005"<u>https://github.com/Florens2005</u></a><br><b>Instagram:</b><a href="https://www.instagram.com/florens.tool/"<u>https://www.instagram.com/florens.tool/</u></a>
+      </div>
+    </div>  
+  </div>
+
+   
+<!-- footer -->
+<footer class="bg-dark text-white text-center py-4">
+  <p class="mb-0">© STAR CINEMA door: <a href="about.html" class="text-white fw-bold" target="_blank">Florens Tool</a></p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
